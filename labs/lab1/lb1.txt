@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 1</title>
+  </head>
+  <body>
+    <h1>CUNY QCC NY CEO MicroCred.in SE.</h1>
+    <h2>Kirana Ali </h2>
+    <h3>Lab 1</h3>
+    <h4>Basic HTML Structure</h4>
+    <h5>HTML, Head, Title Body, h 1-6, p tags or selectors</h5>
+    <h6>Date: July 14, 2021</h6>
+      <p> I am a student at John Jay College of Criminal Justice.
+         Computer Science and Information Security is my major.
+         My family and I live in Queens, New York, with my father, mother, and sister.
+         I want to learn skills so that I can become a Software Engineer or Developer.
+      </p>
+
+  </body>
+</html>

@@ -1,0 +1,12 @@
+<html>
+  <head>
+  <title>SAMPLE KIRANA </title>
+  </head>
+  <body>
+  <h1>HELLO KIRANA !!!</h1>
+  <h2>HELLO KIRANA !!!</h2>
+  <h3>HELLO KIRANA !!!</h3>
+  <h4>HELLO KIRANA !!!</h4>
+  <p>HELLO KIRANA !!! HELLO KIRANA !!! HELLO KIRANA !!! HELLO KIRANA !!! HELLO KIRANA !!! HELLO KIRANA !!!</p>
+  </body>
+</html>
