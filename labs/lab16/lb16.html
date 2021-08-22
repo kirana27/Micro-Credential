@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width-device-width">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="changecss.js" type="text/javascript"></script>
+    <title>Lab 15</title>
+  </head>
+    <body>
+
+      <div class="header">
+        <h1>SOME OF MY BEST WORK!</h1>
+      </div>
+
+    <div class="topnav">
+      <a href="travel1.html">INTRO</a>
+      <a href="travel2.html">LESSON 1</a>
+      <a href="travel3.html">LESSON 2</a>
+    </div>
+
+    <div class="flex-container">
+      <div class="column">
+        <a href="https://www.w3schools.com/html/"><h2>HTML</h2></a>
+          <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.... HTML elements are the building blocks of HTML pages.</p>
+        </div>
+        <div class="column">
+          <h2>CSS </h2>
+            <p>Enter Student</p>
+            <form name="listForm">
+              First Name:<input name="fn" type="text"><br>
+              Last Name:<input name="ln" type="text"><br>
+              Birthday:<input name="bd" type="text"><br>
+              Eye Color:<input name="ec" type="text"><br>
+              Favorite Song:<input name="fs" type="text"><br>
+            </form>
+            <button type="button" onclick="allSty()" name="button">Change Style Sheet</button>
+            <h4>These are my students</h4>
+            <p id="arrayDemo"></p>
+        </div>
+        <div class="column">
+          <h2>JavaScript</h2>
+            <p id="demo">
+              JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is
+              high-level, often just-in-time compiled, and multi-paradigm.It has curly-bracket syntax, dynamic typing, prototype-based object-
+              orientation, and first-class functions.
+              <button id="myFunction" onclick="myFunction()">Click Here to view JS in Action</button>
+            </p>
+        </div>
+    </div>
+
+    <script>
+      //this will react to clicking the button
+      function myFunction(){
+        //write inside the element pop
+        document.getElementById('demo').innerHTML="Did you get 7-8 hours of sleep last night?";
+      }
+
+    </script>
+  </body>
+</html>

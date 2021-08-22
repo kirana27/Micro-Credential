@@ -1,0 +1,17 @@
+h1{
+  border-bottom: black double;
+  border-top: red solid;
+  border-left: orange dotted;
+  border-right: yellow groove;
+
+}
+img{
+  border-radius: 150px;
+  width:650px;
+  border-color: orange;
+  border-style: ridge;
+}
+p{
+  border-color: blue;
+  border-style:double;
+}

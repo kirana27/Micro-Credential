@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width-device-width">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lab 14</title>
+    <script src="jQueryUncompressed.js"type="text/javascript"></script>
+  </head>
+    <body>
+
+      <div class="header">
+        <h1>SOME OF MY BEST WORK!</h1>
+      </div>
+
+    <div class="topnav">
+      <a href="travel1.html">INTRO</a>
+      <a href="travel2.html">LESSON 1</a>
+      <a href="travel3.html">LESSON 2</a>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h2>Web Develpment Foundations</h2>
+          <p>
+            In this course, students learn design and computer science fundamentals by coding web pages using HTML, CSS,
+            and JavaScript. Each language receives its own focus and students will gain a working understanding of each of them.
+            It is designed to be taught over the course of a semester. Any internet-enabled computer with a keyboard, mouse, and
+            Google Chrome installed will work for this course.</p>
+        </div>
+        <div class="column">
+          <h3>CSS </h3>
+            <p>Enter Student</p>
+            <form name="listForm">
+              First Name:<input name="fn" type="text"><br>
+              Last Name:<input name="ln" type="text"><br>
+              Birthday:<input name="bd" type="text"><br>
+              Eye Color:<input name="ec" type="text"><br>
+              Favorite Song:<input name="fs" type="text"><br>
+            </form>
+            <button type="button" onclick="sty1()">Change Style</button>
+            <h4>These are my students</h4>
+            
+            <p id="arrayDemo"></p>
+        </div>
+        <div class="column">
+          <h3>JavaScript</h3>
+            <p id="js">
+              JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is
+              high-level, often just-in-time compiled, and multi-paradigm.It has curly-bracket syntax, dynamic typing, prototype-based object-
+              orientation, and first-class functions.</p>
+              <button id="change" onclick="change()">Click Here to JS in Action</button>
+        </div>
+      </div>
+
+      <script>
+        //this will react to clicking the button
+        function change(){
+          //write inside the element pop
+          document.getElementById('js').innerHTML="WELCOME USER! HOW ARE YOU?";
+        }
+
+      </script>
+    </body>
+  </html>

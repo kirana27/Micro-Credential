@@ -1,0 +1,19 @@
+p{
+  text-align: center;
+  color: lightpink;
+  transform: translate(-25px,15px);
+  transition-duration: 17000ms;
+  transform: scale3d(10,15,2);
+}
+
+div{
+  color: lightblue;
+  text-align: center;
+  border:black;
+  border-style: thin;
+  border-width: 2px;
+  width: 50px;
+  height: 75px;
+  transform-origin: 1000px;
+  transition-duration: 7000ms;
+}

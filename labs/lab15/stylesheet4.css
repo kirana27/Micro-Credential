@@ -1,0 +1,47 @@
+/*Body*/
+body{
+  background-color: black;
+}
+/*Header Style*/
+.header{
+  background-color: grey;
+  padding:10px;
+  text-align: center;
+}
+/*Top Nav Style*/
+.topnav{
+  overflow: hidden;
+  background-color: white ;
+}
+.topnav a{
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover{
+  background-color: gray;
+}
+/*3 columns next to each other*/
+.flex-container{
+  display: flex;
+}
+.flex-container > div{
+  margin-top:-15px;
+  margin-left: 245px;
+  width:185px;
+}
+h2{
+  color: white;
+}
+h4{
+  color: white;
+}
+p{
+  color: white;
+}
+form{
+  color: white;
+}

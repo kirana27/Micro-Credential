@@ -1,0 +1,123 @@
+#home{
+  height: 100%;
+  width:90%;
+  background-image: url("https://images.unsplash.com/photo-1461695008884-244cb4543d74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.flex-container{
+  background-size: 100%;
+  padding: 259px;
+  background-size:cover;
+  line-height: normal;
+  height:inherit;
+  object-fit:cover;
+  overflow: hidden;
+  margin:-40px;
+}
+.top{
+  position: relative;
+  flex-flow: column;
+  padding-top: 15px;
+  margin-top: -5px;
+  box-sizing: border-box;
+}
+.topnavhome{
+  position:sticky;
+  margin-top: -20px;
+  text-align: left;
+  flex-wrap: wrap;
+}
+.topnavhome a{
+  position: inherit;
+  text-decoration: none;
+  color: gray;
+  padding:15px;
+  letter-spacing: 1.5px;
+}
+.topnav{
+  position:sticky;
+  text-align: right;
+  flex-wrap: wrap;
+  margin-right:-150px; 
+}
+.topnav a{
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: gray;
+  padding: 15px;
+}
+.topnav a:hover{
+  color: black;
+  text-decoration: underline;
+}
+h2{
+  color:black;
+  text-align: right;
+  text-shadow:2px;
+  font-size: 55px;
+  font-style:normal;
+}
+h3{
+  color:gray;
+  text-align:justify;
+  font-weight: 300;
+  font-style:normal;
+  font-family:sans-serif;
+  margin-left: 800px;
+  margin-top: -40px;
+
+}
+/*LABS*/
+#LABS{
+  background-color: black;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#lbpic{
+  width:350px;
+  height:250px;
+  margin-left: 35px;
+  margin-top: 15px;
+  filter: grayscale(100%);
+}
+/*ABOUT*/
+#about{
+  background-color: black;
+}
+.flex-container2{
+  display: flex;
+}
+.IMAGES > img{
+  width:270px;
+  margin:45px;
+}
+.welcome{
+  text-align: justify;
+  color:gray;
+  margin-left: 15px;
+  line-height: 90px;
+  font-style:normal;
+  font-family:sans-serif;
+}
+/*PROJECTS*/
+#projects{
+  background-color: black;
+  display: grid;
+  color:gray;
+}
+#movieproj{
+  grid-template-columns: 1fr;
+  width:350px;
+  height:250px;
+  margin-left: 35px;
+  margin-top: 15px;
+  filter: grayscale(100%);
+}
+#txtproj{
+  text-align:center;
+  font-style:normal;
+  font-family:sans-serif;
+}

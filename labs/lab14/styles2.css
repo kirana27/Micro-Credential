@@ -1,0 +1,35 @@
+/*Body*/
+body{
+  background-color: #ff6666 ;
+}
+/*Header Style*/
+.header{
+  background-color: orange;
+  padding:10px;
+  text-align: center;
+}
+/*Top Nav Style*/
+.topnav{
+  overflow: hidden;
+  background-color: brown;
+}
+.topnav a{
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover{
+  background-color: gray;
+}
+/*3 columns next to each other*/
+.flex-container{
+  display: flex;
+}
+.flex-container > div{
+  margin-top:-15px;
+  margin-left: 245px;
+  width:185px;
+}
